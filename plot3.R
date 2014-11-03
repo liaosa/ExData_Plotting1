@@ -1,4 +1,4 @@
-setwd("I:/Data_Science_JH/Exploratory Data Analysis/")
+setwd("I:/Data_Science_JH/Exploratory Data Analysis/") ##set  to the correct folder, and the data set is in the subfolder data
 if (!file.exists("data")){dir.create("data")}
 data<-read.table("./data/household_power_consumption.txt",sep=";",header=T,stringsAsFactors=FALSE)
 str(data)
